@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    background: #F8F8F8;
+    font-family: 'Calibri';
+    font-size: 12px;
+}
+
+main {
+    float: right;
+    margin: 30px;
+    height: 500px;
+    padding: 0px;
+}
+
+header {
+    background: linear-gradient(to left, rgba(255, 225, 255, 0) 0%, #1A374C 75%), left url(img.png);
+    height: 200px;
+    margin-top: -130px;
+    box-shadow: 1px 1px 4px grey;
+}
+
+header h1 {
+    color: white;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 26px;
+    margin-left: 30px;
+    margin-top: 140px;
+}
+
+nav {
+    width: 270px;
+    height: 100vh;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #1A374C, #4CB3F0);
+    position: fixed;
+    top: 65px;
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: -12px;
+    padding: 0 auto;
+}
+
+li a {
+    width: 270px;
+    background: #1A374C;
+    color: white;
+    font-family: 'Calibri';
+    display: block;
+    height: 34px;
+    margin: 3px auto;
+    padding: 3px 0px 0px 0px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 18px;
+    text-indent: 30px;
+    font-weight: 100;
+}
+
+.p-menu {
+    background: transparent;
+}
+
+#sidebarMenu {
+    width: 270px;
+    margin: 0 auto;
+}
+
+.myBox {
+    background: white;
+    height: 420px;
+    border-radius: 2px;
+    -webkit-box-shadow: -1px 0px 7px -1px #ECECEC;
+    -moz-box-shadow: -1px 0px 7px -1px #ECECEC;
+    box-shadow: -1px 0px 7px -1px #ECECEC;
+    padding: 10px;
+}
+
+.h2 {
+    font-family: 'Calibri';
+    font-size: 20px;
+    font-weight: 300;
+    color: #1A374C;
+    width: 100%;
+    border-bottom: 1px solid #1A374C;
+    text-indent: -7px;
+}
+
+.input {
+    height: 20px;
+    border-radius: 2px;
+    border: 1px solid #f0f0f0;
+    width: 100%;
+    margin-right: 5px;
+    -webkit-box-shadow: -1px 0px 7px -1px #ECECEC;
+    -moz-box-shadow: -1px 0px 7px -1px #ECECEC;
+    box-shadow: -1px 0px 7px -1px #ECECEC;
+}
+
+.add {
+    height: 20px;
+    border-radius: 2px;
+    border: 1px solid #f0f0f0;
+    color: black;
+    -webkit-box-shadow: -1px 0px 7px -1px #ECECEC;
+    -moz-box-shadow: -1px 0px 7px -1px #ECECEC;
+    box-shadow: -1px 0px 7px -1px #ECECEC;
+}
+
+.dados {
+    margin: 10px 0px;
+}
+
+.dados th {
+    background: #1A374C;
+    padding: 5px 0px;
+    color: white;
+    text-align: center;
+    border: 1px solid grey;
+    font-family: 'Calibri';
+    font-weight: 300;
+}
+
+.dados td {
+    border: 1px solid grey;
+    text-align: center;
+    color: #1A374C;
+}
+
+.btn-item {
+    background: transparent;
+    border: 0px solid transparent;
+    margin: 0;
+    padding: 0;
+}
