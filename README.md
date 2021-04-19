@@ -1,12 +1,12 @@
 # Desafio Técnico OBUC
 
-**Funcionalidades**
+**Funcionalidades**<br>
 1- Inclusão de local de trabalho através de formulário;<br>
 2- Tabela contendo os registros cadastrados, devendo ser atualizada quando for adicionado, editado ou excluído algum registro;<br>
 3- Edição de registros dentro da própria tabela ao clicar no ícone de edição;<br>
 4- Exclusão de registro pelo ícone de lixeira;<br>
 
-**Observações**
+**Observações**<br>
 • Aplicação deverá ser feita em html, css e javascript. A utilização de bibliotecas como Jquery, bootstrap etc. é permitida;<br>
 • Frameworks como react, angular, vue etc. também são aceitos, mas terão peso menor;<br>
 • As informações da lista deverão ser armazenadas em um array de objetos com o nome de ‘arrLocaisTrabalho’ utilizando sessionStorage. De forma a substituir a utilização de um banco de dados ou sharepoint no teste apresentado;<br>
